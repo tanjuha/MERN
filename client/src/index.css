@@ -1,0 +1,30 @@
+@import '~materialize-css/dist/css/materialize.min.css';
+
+.card-action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color-input:focus, input.valid {
+  border-bottom: 1px solid #9e9e9e!important;
+  box-shadow: 0 1px 0 0 #9e9e9e!important;
+}
+
+.color-input:focus + label {
+  color: #9e9e9e!important;
+}
+
+.active-navbar {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.mt-5{
+  margin-top: 5rem;
+}
+
+.loader-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}

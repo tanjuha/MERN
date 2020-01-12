@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "jwtSecret": "secret key",
+  "mongoUri": "mongodb+srv://tanjuha:root@cluster0-nqogo.azure.mongodb.net/app?retryWrites=true&w=majority",
+  "baseUrl": "htttp://localhost:5000"
+}
